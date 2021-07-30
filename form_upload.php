@@ -1,5 +1,5 @@
 <?php
-  $conn = mysqli_connect("localhost", "root", "" , "moolya_foodies") or die(mysqli_error($conn));
+ $conn = mysqli_connect("sql6.freesqldatabase.com", "sql6428361", "UKk9GFjWFE" , "sql6428361") or die(mysqli_error($conn));
   $First_Name = $_POST['fname'];
   $Last_Name = $_POST['lname'];
   $DOB = $_POST['dob'];
