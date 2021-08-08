@@ -1,5 +1,5 @@
 <?php
-  $conn = mysqli_connect("sql6.freesqldatabase.com", "sql6428361", "UKk9GFjWFE" , "sql6428361") or die(mysqli_error($conn));
+  $conn = mysqli_connect("remotemysql.com", "i61KQ3F7NT", "buaBbOzQnb" , "i61KQ3F7NT") or die(mysqli_error($conn));
   $select_query = "SELECT DISTINCT First_Name, Last_Name , DOB , Email ,Type , Fav1 , Fav2 , Fav3, Food FROM interns";
   $select_query_result = mysqli_query($conn, $select_query) or die(mysqli_error($conn));
   
