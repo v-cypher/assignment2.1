@@ -1,5 +1,5 @@
 <?php
-		  $conn = mysqli_connect("sql6.freesqldatabase.com", "sql6428361", "UKk9GFjWFE" , "sql6428361")  or die(mysqli_error($conn));
+		  $conn = mysqli_connect("remotemysql.com", "i61KQ3F7NT", "buaBbOzQnb" , "i61KQ3F7NT")  or die(mysqli_error($conn));
 		  if (isset($_POST['sub']))
 				 {
 				  $First_Name = $_POST['fname'];
